@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    /* color: #000000; */
+    text-decoration: none;
+}
+
+body {
+    height: 1080px;
+    background-color: #F58725;
+    /* background-image: linear-gradient(#F58725, #D09B6B, #FFFFFF); */
+    background-image: linear-gradient(#F58725, #f58725, #D09B6B, #FFFFFF);
+}
+
+#master {
+    width: 85%;
+}
+
+/* Header */
+
+#header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 50px;
+    flex: auto;
+    font-weight: 600;
+}
+
+.header-link {
+    color: white;
+    flex: auto;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.header-link:hover {
+    color: grey;
+    font-weight: bolder;
+}
+
+.selected {
+    font-weight: bolder;
+}
+
+.selected:hover {
+    color: black;
+}
+
+/* End Header*/ 
+
+/* Content */
+
+#content {
+    padding-left: 60px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+}
+
+.konten-interaktif {
+    color: white;
+    font-size: 120px;
+    font-weight: 550;
+    line-height: 1;
+}
+
+.deskripsi-enggal {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+.see-more {
+    width: 90%;
+    height: 60px;
+    background-color: #3c3eff;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
