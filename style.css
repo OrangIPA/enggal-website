@@ -60,7 +60,7 @@ body {
 /* Content */
 
 #content {
-    padding-left: 60px;
+    padding-left: 10%;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
@@ -92,3 +92,11 @@ body {
     font-size: 30px;
     font-weight: 600;
 }
+
+.icon {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+/* End Content */
